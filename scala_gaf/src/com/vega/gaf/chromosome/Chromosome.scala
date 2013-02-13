@@ -5,7 +5,7 @@ import com.vega.gaf.gene.Gene
  * represents a collection of Genes
  */
 class Chromosome[T](g:List[Gene[T]]) {
-	val genes = g;
+	val genes = g
 }
 
 object Chromosome{
