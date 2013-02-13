@@ -11,9 +11,8 @@ class OnePointCrossover[T] extends Crossover[T]{
 	 */
 	def crossover(a : Chromosome[T], b: Chromosome[T]) : Chromosome[T] = {
 		if( a.genes.size != b.genes.size) throw new IncompatibleChromosomeException()
-		val rg= new Random()
-		val crossPoint = rg.nextInt(a.genes.size)
-		val newGenes = for(val i <- 0 to a.genes.size) yield(if (crossPoint < i) a.genes(i) else b.genes(i))
+		val crossPoint= new Random().nextInt(a.genes.size)
+		val newGenes = for(val i <- 0 to a.genes.size) yield if (crossPoint < i) a.genes(i) else b.genes(i)
 		Chromosome(newGenes.toList)
 	}
 	
