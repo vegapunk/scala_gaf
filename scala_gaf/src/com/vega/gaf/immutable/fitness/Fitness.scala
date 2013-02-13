@@ -1,5 +1,5 @@
-package com.vega.gaf.fitness
-import com.vega.gaf.chromosome.Chromosome
+package com.vega.gaf.immutable.fitness
+import com.vega.gaf.immutable.chromosome.Chromosome
 
 trait Fitness[T, M] {
 

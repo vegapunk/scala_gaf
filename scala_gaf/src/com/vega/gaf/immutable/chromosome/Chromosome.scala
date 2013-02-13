@@ -1,5 +1,6 @@
-package com.vega.gaf.chromosome
-import com.vega.gaf.gene.Gene
+package com.vega.gaf.immutable.chromosome
+
+import com.vega.gaf.immutable.gene.Gene
 
 /**
  * represents a collection of Genes

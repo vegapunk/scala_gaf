@@ -1,6 +1,5 @@
-package com.vega.gaf.crossover
-import com.vega.gaf.chromosome.Chromosome
-import com.vega.gaf.gene.Gene
+package com.vega.gaf.immutable.crossover
+import com.vega.gaf.immutable.chromosome.Chromosome
 
 trait Crossover[T] {
 

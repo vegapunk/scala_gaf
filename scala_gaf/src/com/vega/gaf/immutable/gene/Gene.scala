@@ -1,4 +1,4 @@
-package com.vega.gaf.gene
+package com.vega.gaf.immutable.gene
 
 /**
  *  

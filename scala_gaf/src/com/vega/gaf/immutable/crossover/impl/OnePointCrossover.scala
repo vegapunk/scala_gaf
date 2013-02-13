@@ -1,8 +1,9 @@
-package com.vega.gaf.crossover.impl
-import com.vega.gaf.crossover.Crossover
-import com.vega.gaf.chromosome.Chromosome
+package com.vega.gaf.immutable.crossover.impl
+import com.vega.gaf.immutable.crossover.Crossover
 import scala.util.Random
 import com.vega.gaf.exception.IncompatibleChromosomeException
+import com.vega.gaf.immutable.chromosome.Chromosome
+
 
 class OnePointCrossover[T] extends Crossover[T]{
  
