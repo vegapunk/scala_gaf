@@ -5,7 +5,7 @@ import com.vega.gaf.exception.IncompatibleChromosomeException
 import com.vega.gaf.immutable.chromosome.Chromosome
 
 
-class OnePointCrossover[T] extends Crossover[T]{
+trait OnePointCrossover[T] extends Crossover[T]{
  
 	/**
 	 * Perform One Point Crossover on two given genes
