@@ -1,5 +1,9 @@
 package com.vega.gaf.immutable.mutation
 
-trait Mutation {
+import com.vega.gaf.immutable.gene.Gene
 
+trait Mutation[T] {
+
+	def mutate(gene:Gene[T]): Gene[T]
+	
 }
