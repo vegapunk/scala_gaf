@@ -3,7 +3,7 @@ import com.vega.gaf.immutable.chromosome.Chromosome
 import com.vega.gaf.immutable.environment.Population
 
 /**
- * Should be used to select from a population a pair of Chromosomes to be crossed over
+ * Should be used to select from a population a list of pairs of Chromosomes to be crossed over
  */
 trait CrossoverSelector[T] {
 
