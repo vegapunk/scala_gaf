@@ -1,0 +1,7 @@
+# Compiled source #
+###################
+*.class
+
+# Eclipse Files #
+.cache
+.project
