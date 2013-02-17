@@ -1,4 +1,4 @@
-package com.vega.gaf.immutable.ruleset.crossover.impl
+package com.vega.gaf.immutable.ruleset.crossover
 import com.vega.gaf.immutable.ruleset.crossover.Crossover
 import scala.util.Random
 import com.vega.gaf.exception.IncompatibleChromosomeException

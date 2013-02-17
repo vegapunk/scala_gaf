@@ -1,4 +1,4 @@
-package com.vega.gaf.immutable.ruleset.crosschooser.impl
+package com.vega.gaf.immutable.ruleset.crosschooser
 import com.vega.gaf.immutable.ruleset.crosschooser.CrossoverSelector
 import com.vega.gaf.immutable.environment.Population
 import com.vega.gaf.immutable.chromosome.Chromosome
