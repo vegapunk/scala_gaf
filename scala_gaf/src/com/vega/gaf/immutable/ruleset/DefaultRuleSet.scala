@@ -2,7 +2,7 @@ package com.vega.gaf.immutable.environment.impl
 import com.vega.gaf.immutable.environment.RuleSet
 import com.vega.gaf.immutable.environment.Population
 import com.vega.gaf.immutable.ruleset.mutation.Mutation
-import com.vega.gaf.immutable.crossover.Crossover
+import com.vega.gaf.immutable.ruleset.crossover.Crossover
 import com.vega.gaf.immutable.chromosome.Chromosome
 import com.vega.gaf.immutable.gene.Gene
 import scala.util.Random

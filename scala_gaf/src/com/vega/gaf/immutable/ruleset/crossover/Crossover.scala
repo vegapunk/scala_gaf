@@ -1,4 +1,4 @@
-package com.vega.gaf.immutable.crossover
+package com.vega.gaf.immutable.ruleset.crossover
 import com.vega.gaf.immutable.chromosome.Chromosome
 
 trait Crossover[T] {

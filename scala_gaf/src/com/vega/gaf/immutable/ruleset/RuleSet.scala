@@ -1,8 +1,8 @@
 package com.vega.gaf.immutable.environment
 import com.vega.gaf.immutable.ruleset.mutation.Mutation
-import com.vega.gaf.immutable.crossover.Crossover
+import com.vega.gaf.immutable.ruleset.crossover.Crossover
 import com.vega.gaf.immutable.selection.Selection
-import com.vega.gaf.immutable.crosschooser.CrossoverSelector
+import com.vega.gaf.immutable.ruleset.crosschooser.CrossoverSelector
 
 /**
  * 

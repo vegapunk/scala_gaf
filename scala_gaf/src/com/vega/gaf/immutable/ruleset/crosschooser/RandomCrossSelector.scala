@@ -1,5 +1,5 @@
-package com.vega
-import com.vega.gaf.immutable.crosschooser.CrossoverSelector
+package com.vega.gaf.immutable.ruleset.crosschooser.impl
+import com.vega.gaf.immutable.ruleset.crosschooser.CrossoverSelector
 import com.vega.gaf.immutable.environment.Population
 import com.vega.gaf.immutable.chromosome.Chromosome
 import scala.util.Random
