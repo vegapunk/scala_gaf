@@ -6,7 +6,13 @@ import com.vega.gaf.immutable.chromosome.Chromosome
  */
 protected class Population[T](pop:List[Chromosome[T]]) {
 
-	val population = pop	
+	val population = pop
+	
+	/**
+	 * Return a new Population comprising the old population and the current population
+	 */
+	def add(newPop:List[Chromosome[T]]): Population[T] = new Population(newPop ::: this.population)
+	
 }
 
 object Population{
