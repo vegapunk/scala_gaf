@@ -15,6 +15,7 @@ trait RandomCrossSelector[T] extends CrossoverSelector[T]{
 			val chromA = pop.population(new Random().nextInt(pop.population.size))
 			val chromB = pop.population(new Random().nextInt(pop.population.size))
 			new Pair(chromA, chromB)
+			
 		}
 		
 		List(generatePair())

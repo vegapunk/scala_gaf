@@ -10,6 +10,6 @@ trait Mutation[T] {
 	/**
 	 * Implementations should return a mutated version of the given Gene
 	 */
-	def mutate(gene:Gene[T]): Gene[T]
+	protected def mutate(gene:Gene[T]): Gene[T]
 
 }

@@ -7,6 +7,6 @@ import com.vega.gaf.immutable.environment.Population
  */
 trait CrossoverSelector[T] {
 
-	def selectForCrossover(pop: Population[T]): List[Pair[Chromosome[T], Chromosome[T]]]
+	protected def selectForCrossover(pop: Population[T]): List[Pair[Chromosome[T], Chromosome[T]]]
 	
 }
