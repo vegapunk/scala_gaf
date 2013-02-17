@@ -3,8 +3,8 @@ package com.vega.gaf.immutable.gene
 /**
  *  
  */
-trait Gene[T] {
+class Gene[T](cont:T) {
 
-	val content : T
+	val content = cont
 	
 }
